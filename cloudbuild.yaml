@@ -1,8 +1,0 @@
-steps:
-  # build the container image
-- name: 'dcker'
-  args: ["build", "-t", "gcr.io/$PROJECT_ID/gcpdevops", "."]
-  # push container image
-images:
-- 'gcr.io/$PROJECT_ID/gcpdevops'
-
